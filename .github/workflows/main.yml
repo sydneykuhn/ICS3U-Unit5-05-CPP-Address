@@ -39,7 +39,9 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_CLANG_FORMAT: false
           VALIDATE_JAVASCRIPT_STANDARD: false
+           VALIDATE_PYTHON_FLAKE8: false
 
           DEFAULT_BRANCH: main
 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
